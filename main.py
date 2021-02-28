@@ -1,6 +1,7 @@
 from GUI import *
 
 def signals(self):
+    """ Recieve signals from GUI to Backend """
     self.pushButton.clicked.connect(encrypt)
     self.pushButton_2.clicked.connect(decrypt)
 
